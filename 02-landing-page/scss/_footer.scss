@@ -1,0 +1,24 @@
+@use 'variables';
+
+.mainfooter {
+
+    text-align: center;
+    padding: 30px;
+    background: #fff;
+    
+    .logo {
+        color: variables.$primary;
+    }
+
+    .social-fixed {
+        margin-top: 20px;
+        a {
+            margin: 10px;
+
+            img {
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+} // End .mainfooter

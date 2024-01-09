@@ -1,0 +1,27 @@
+@use 'variables';
+
+// CTA
+#cta {
+    padding-top: 100px;
+    padding-bottom: 90px;
+
+    background-color: #fff;
+    img {
+        border: 20px solid variables.$secondary;
+        border-radius: 50%;
+        margin-right: -50px;
+        margin-top: -100px;
+    }
+    .cta-text{
+        background: variables.$primary;
+        color: #fff;
+        padding: 40px 50px;
+
+        p{
+            font-weight: 300;
+            padding-top: 15px;
+            padding-bottom: 20px;
+        }
+    } // End .cta-text
+
+} // End #cta

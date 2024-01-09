@@ -1,0 +1,30 @@
+@use 'variables';
+
+// features
+.features {
+    padding-top: 40px;
+    padding-bottom: 90px;
+    background: variables.$accent;
+    border-bottom-left-radius: 50% 35%;
+    border-bottom-right-radius: 50% 35%;
+
+    .flex-box {
+        margin: 20px;
+        text-align: center;
+
+        .txt-number span {
+            font-size: 20px;
+            border: 1px solid #000;
+            padding: 10px 17px;
+            border-radius: 50%;
+        }
+
+        h4 {
+            padding: 20px 0;
+        }
+
+    } // End .flex-box
+
+}
+
+// End .features
