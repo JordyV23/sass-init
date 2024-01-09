@@ -1,3 +1,6 @@
-h2{
-    color: crimson;
-}
+// Llamar a los partials
+@use 'reset';
+@use 'navbar';
+@use 'variables';
+// @use 'animaciones'
+@use 'hero';

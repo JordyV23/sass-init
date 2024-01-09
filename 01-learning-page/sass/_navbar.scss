@@ -1,0 +1,34 @@
+@use 'mixinsFunc';
+
+/*Este es un partial*/
+//su nombre debe de iniciar con _
+.nav {
+    background-color: steelblue;
+
+    &__container {
+        width: 90%;
+        margin: 0 auto;
+        height: 70px;
+        gap: 1em;
+        @include mixinsFunc.crear-flexbox(space-evenly);
+    }
+
+    &__item {
+        color: #fff;
+        text-decoration: none;
+
+        &--active {
+            text-decoration: underline;
+        }
+
+        &:hover {
+            color: #000;
+        }
+    }
+
+    @media(min-width: 764px) {
+        &__container {
+            justify-content: flex-end;
+        }
+    }
+}

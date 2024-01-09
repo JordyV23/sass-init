@@ -1,0 +1,33 @@
+@use 'mixinsFunc';
+
+@mixin fix-image {
+    background: {
+        size: cover;
+        repeat: 'no-repeat';
+        position: center;
+    }
+}
+
+.hero {
+
+    &__container {
+        height: calc(100vh - 70px);
+        background-image: linear-gradient(#0000006d, #00000075), url('../public/bg.jpeg');
+        @include mixinsFunc.crear-flexbox(center);
+        @include fix-image();
+    }
+
+    &__texts {
+        width: 90%;
+        color: #fff;
+    }
+
+    &__title {
+        font-size: mixinsFunc.pixeles-rem(40);
+        margin-bottom: mixinsFunc.pixeles-rem(10);
+    }
+
+    &__paragraph {
+        font-size: mixinsFunc.pixeles-rem(18);
+    }
+}
