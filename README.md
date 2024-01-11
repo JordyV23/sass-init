@@ -20,4 +20,12 @@ cuenta con texto de ejemplo.
 - Este es el segundo proyecto para tener una mayor
 comprension de esta tecnologia.
 
-- Esta es una paguna de landing sobre la marca ficticia 'Work it'
+- Esta es una pagina de landing sobre la marca ficticia 'Work it'
+
+---
+
+## 03-skilled-page
+
+- Este es el tercer proyecto para practicar el uso de sass.
+
+- Esta esta es una landing page sobre 'skilled' una plataforma de aprendizaje.

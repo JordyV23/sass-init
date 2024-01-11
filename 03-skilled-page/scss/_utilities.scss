@@ -1,0 +1,72 @@
+@use 'variables';
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.txt-small {
+    font-size: 12px;
+}
+
+.txt-white {
+    color: variables.$white;
+}
+
+.display-1 {
+    font-size: 3rem;
+}
+
+.display-2 {
+    font-size: 2rem;
+}
+
+.bg-dark {
+    background: variables.$grey;
+}
+
+.bg-gradient {
+    background-image: linear-gradient(variables.$primary, variables.$accent);
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-dark {
+    background: variables.$grey;
+    color: variables.$white;
+}
+
+.btn-light {
+    background-image: linear-gradient(variables.$primary, variables.$accent);
+    color: variables.$white;
+}
+
+.btn-light-secondary {
+    background-image: linear-gradient(variables.$primary, variables.$purple);
+    color: variables.$white;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-fixed {
+    display: flex;
+}
+
+.flex-box {
+    flex: 1px;
+}

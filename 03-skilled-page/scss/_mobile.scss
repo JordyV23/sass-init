@@ -1,0 +1,22 @@
+@use 'variables';
+
+@media (max-width:768px){
+    .flex {
+        flex-direction: column;
+    }
+
+    .mainheader {
+        .showcase{
+            padding: 50px 0;
+
+            .flex {
+                gap: 20px;
+                align-items: center;
+            }
+        }
+    }
+
+    .skilled {
+        padding: 40px 0;
+    }
+}

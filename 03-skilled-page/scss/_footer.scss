@@ -1,0 +1,10 @@
+@use 'variables';
+
+.mainfooter {
+    text-align: center;
+    padding: 30px;
+
+    .flex-fixed {
+        justify-content: space-between;
+    }
+}

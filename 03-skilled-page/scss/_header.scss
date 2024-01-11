@@ -1,0 +1,31 @@
+@use 'variables';
+
+.mainheader {
+
+    .navbar {
+        padding: 30px 0;
+
+        .flex-fixed {
+            justify-content: space-between;
+        }
+
+    } // End navbar
+
+    .showcase {
+        padding: 80px 0;
+
+        .flex {
+            gap: 20px;
+            align-items: center;
+
+            p{
+                margin: 20px 0;
+                font-weight: 200;
+            }
+        }
+    } // End showcase
+
+
+}
+
+// End .mainheader
